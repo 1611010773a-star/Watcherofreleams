@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792392913746,
+            "lastSyncTime": 1793025025647,
             "isModifiedExternally": false,
-            "isDeleted": true,
-            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\日常任务领奖.json",
+            "isDeleted": false,
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\日常任务领奖.json",
             "savedViewport": {
-                "x": 1059,
-                "y": 128,
-                "zoom": 0.86
+                "x": 1601,
+                "y": -12,
+                "zoom": 1.5
             },
             "filename": "日常任务领奖",
             "version": "v2.1.0"
@@ -60,6 +60,25 @@
             }
         }
     },
+    "新建节点199_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 407,
+                "y": 404
+            }
+        }
+    },
     "新建节点32_副本1": {
         "recognition": {
             "type": "OCR",
@@ -105,25 +124,6 @@
             "position": {
                 "x": -537,
                 "y": 135
-            }
-        }
-    },
-    "新建节点199_副本1": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "template_1789389957083.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 407,
-                "y": 404
             }
         }
     }

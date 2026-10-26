@@ -3,64 +3,17 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792767090872,
+            "lastSyncTime": 1793024980565,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\友情点赠送.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\友情点赠送.json",
             "savedViewport": {
-                "x": 1060,
-                "y": -145,
-                "zoom": 0.75
+                "x": 1361,
+                "y": -321,
+                "zoom": 1.5
             },
             "filename": "友情点赠送",
             "version": "v2.1.0"
-        }
-    },
-    "新建节点77": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "template_1789389957083.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 800,
-        "next": [
-            "友情点赠送"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -49,
-                "y": 1405
-            }
-        }
-    },
-    "新建节点78": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "template_1792767061782.png"
-                ],
-                "green_mask": true
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 800,
-        "next": [
-            "友情点赠送"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -413,
-                "y": 1132
-            }
         }
     },
     "一键领取和赠送": {
@@ -83,6 +36,29 @@
             "position": {
                 "x": 51,
                 "y": 333
+            }
+        }
+    },
+    "关闭111": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "友情点赠送"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -52,
+                "y": 1129
             }
         }
     },
@@ -142,6 +118,53 @@
             }
         }
     },
+    "新建节点77": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "友情点赠送"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -49,
+                "y": 1405
+            }
+        }
+    },
+    "新建节点78": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1792767061782.png"
+                ],
+                "green_mask": true
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "友情点赠送"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -413,
+                "y": 1132
+            }
+        }
+    },
     "红色叉叉退出": {
         "recognition": {
             "type": "DirectHit",
@@ -161,29 +184,6 @@
             "position": {
                 "x": 454,
                 "y": 366
-            }
-        }
-    },
-    "关闭111": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "点击关闭"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 800,
-        "next": [
-            "友情点赠送"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -52,
-                "y": 1129
             }
         }
     }

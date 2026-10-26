@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792806458401,
+            "lastSyncTime": 1793024995497,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\阵营试炼自动.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\阵营试炼自动.json",
             "savedViewport": {
-                "x": 1211,
-                "y": 164,
-                "zoom": 1.31
+                "x": 1212,
+                "y": 96,
+                "zoom": 1.5
             },
             "filename": "阵营试炼自动",
             "version": "v2.1.0"

@@ -3,10 +3,10 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792325579177,
+            "lastSyncTime": 1793025002972,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\魔朝扫荡.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\魔朝扫荡.json",
             "savedViewport": {
                 "x": 441,
                 "y": -210,
@@ -51,10 +51,10 @@
             "type": "Click"
         },
         "timeout": 500000,
+        "interval": 2000,
         "next": [
             "新建节点58"
         ],
-        "interval": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 734,
@@ -76,10 +76,10 @@
         },
         "post_delay": 500,
         "timeout": 500000,
+        "interval": 2000,
         "next": [
             "新建节点59"
         ],
-        "interval": 2000,
         "$__mpe_code": {
             "position": {
                 "x": 993,

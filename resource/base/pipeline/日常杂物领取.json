@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792554417689,
+            "lastSyncTime": 1793025009144,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\日常杂物领取.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\日常杂物领取.json",
             "savedViewport": {
-                "x": 204,
-                "y": -166,
-                "zoom": 0.86
+                "x": 615,
+                "y": -147,
+                "zoom": 1.5
             },
             "filename": "日常杂物领取",
             "version": "v2.1.0"

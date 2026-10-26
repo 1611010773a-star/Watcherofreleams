@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792659354707,
+            "lastSyncTime": 1793025029911,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\周任务领取.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\周任务领取.json",
             "savedViewport": {
-                "x": 159,
-                "y": -216,
+                "x": 470,
+                "y": -224,
                 "zoom": 1.5
             },
             "filename": "周任务领取",

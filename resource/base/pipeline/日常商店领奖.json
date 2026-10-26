@@ -49,17 +49,40 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792553448771,
+            "lastSyncTime": 1793025014692,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\日常商店领奖.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\日常商店领奖.json",
             "savedViewport": {
-                "x": -1447,
-                "y": -1042,
-                "zoom": 1.31
+                "x": 740,
+                "y": 358,
+                "zoom": 1.5
             },
             "filename": "日常商店领奖",
             "version": "v2.1.0"
+        }
+    },
+    "关闭111_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "日常商店领奖"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 618,
+                "y": 233
+            }
         }
     },
     "商店滑动列表_副本1": {
@@ -331,6 +354,32 @@
             }
         }
     },
+    "新建节点75_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1792393015106.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "日常商店领奖"
+        ],
+        "on_error": [
+            "关闭111_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 314,
+                "y": 162
+            }
+        }
+    },
     "新建节点76": {
         "recognition": {
             "type": "TemplateMatch",
@@ -441,55 +490,6 @@
             "position": {
                 "x": 37,
                 "y": -124
-            }
-        }
-    },
-    "新建节点75_副本1": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "template_1792393015106.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 800,
-        "next": [
-            "日常商店领奖"
-        ],
-        "on_error": [
-            "关闭111_副本1"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 314,
-                "y": 162
-            }
-        }
-    },
-    "关闭111_副本1": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "点击关闭"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 800,
-        "next": [
-            "日常商店领奖"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 618,
-                "y": 233
             }
         }
     }

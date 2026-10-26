@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792547599329,
+            "lastSyncTime": 1793024950580,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\巨龙遗迹领奖.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\巨龙遗迹领奖.json",
             "savedViewport": {
-                "x": 300,
-                "y": -295,
-                "zoom": 0.86
+                "x": 1203,
+                "y": 166,
+                "zoom": 0.99
             },
             "filename": "巨龙遗迹领奖",
             "version": "v2.1.0"

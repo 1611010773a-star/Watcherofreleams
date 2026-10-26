@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792658798069,
+            "lastSyncTime": 1793024930065,
             "isModifiedExternally": false,
             "isDeleted": false,
-            "filePath": "E:\\Watcher\\resource\\pipeline\\矮人商店自动购买.json",
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\矮人商店自动购买.json",
             "savedViewport": {
-                "x": 680,
-                "y": -263,
-                "zoom": 0.57
+                "x": 791,
+                "y": -224,
+                "zoom": 1.5
             },
             "filename": "矮人商店自动购买",
             "version": "v2.1.0"

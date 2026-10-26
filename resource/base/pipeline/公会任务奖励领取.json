@@ -3,17 +3,68 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1792325616610,
+            "lastSyncTime": 1793025020086,
             "isModifiedExternally": false,
-            "isDeleted": true,
-            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\公会任务奖励领取.json",
+            "isDeleted": false,
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\公会任务奖励领取.json",
             "savedViewport": {
                 "x": 900,
-                "y": -37,
+                "y": -81,
                 "zoom": 1.5
             },
             "filename": "公会任务奖励领取",
             "version": "v2.1.0"
+        }
+    },
+    "公会任务奖励领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "公会"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点105"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -70,
+                "y": 207
+            }
+        }
+    },
+    "固定区域识别": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1067,
+                    270,
+                    154,
+                    57
+                ],
+                "expected": [
+                    "领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点107"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 467,
+                "y": 221
+            }
         }
     },
     "固定区域识别_副本1": {
@@ -69,29 +120,6 @@
             "position": {
                 "x": 474,
                 "y": 696
-            }
-        }
-    },
-    "公会任务奖励领取": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "公会"
-                ]
-            }
-        },
-        "pre_delay": 4000,
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "新建节点105"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -70,
-                "y": 207
             }
         }
     },
@@ -202,34 +230,6 @@
             "position": {
                 "x": 1244,
                 "y": 725
-            }
-        }
-    },
-    "固定区域识别": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    1067,
-                    270,
-                    154,
-                    57
-                ],
-                "expected": [
-                    "领取"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "新建节点107"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 467,
-                "y": 221
             }
         }
     }
