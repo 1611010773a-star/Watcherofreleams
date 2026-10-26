@@ -1,0 +1,130 @@
+{
+    "$__mpe_config_日常任务领奖": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792392913746,
+            "isModifiedExternally": false,
+            "isDeleted": true,
+            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\日常任务领奖.json",
+            "savedViewport": {
+                "x": 1059,
+                "y": 128,
+                "zoom": 0.86
+            },
+            "filename": "日常任务领奖",
+            "version": "v2.1.0"
+        }
+    },
+    "新建节点198": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点199"
+        ],
+        "on_error": [
+            "新建节点199_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 76,
+                "y": 175
+            }
+        }
+    },
+    "新建节点199": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 408,
+                "y": 173
+            }
+        }
+    },
+    "新建节点32_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "全部领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点198"
+        ],
+        "on_error": [
+            "新建节点199_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -207,
+                "y": 154
+            }
+        }
+    },
+    "日常任务领奖": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789391037452.png"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点32_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -537,
+                "y": 135
+            }
+        }
+    },
+    "新建节点199_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 407,
+                "y": 404
+            }
+        }
+    }
+}

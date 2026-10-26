@@ -1,0 +1,445 @@
+{
+    "$__mpe_config_巨龙遗迹自动战斗": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792548174480,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher\\resource\\pipeline\\巨龙遗迹自动战斗.json",
+            "savedViewport": {
+                "x": 212,
+                "y": -579,
+                "zoom": 0.86
+            },
+            "filename": "巨龙遗迹自动战斗",
+            "version": "v2.1.0"
+        }
+    },
+    "巨龙遗迹_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789390215944.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "龙三_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -459,
+                "y": 65
+            }
+        }
+    },
+    "巨龙遗迹战斗": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789386887120.png"
+                ]
+            }
+        },
+        "pre_delay": 1000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "巨龙遗迹_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -712,
+                "y": 61
+            }
+        }
+    },
+    "巨龙遗迹返回": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "巨龙遗迹返回1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -26,
+                "y": 1137
+            }
+        }
+    },
+    "巨龙遗迹返回1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 279,
+                "y": 1205
+            }
+        }
+    },
+    "新建节点99": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "自动战斗_副本2_副本1"
+        ],
+        "on_error": [
+            "自动战斗_副本2_副本1_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 518,
+                "y": 724
+            }
+        }
+    },
+    "自动战斗_副本2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789390048170.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点99"
+        ],
+        "on_error": [
+            "自动战斗_副本2_副本1_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 270,
+                "y": 697
+            }
+        }
+    },
+    "自动战斗_副本2_副本1": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    927,
+                    609,
+                    124,
+                    24
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "focus": "",
+        "interval": 5000,
+        "next": [
+            "识别完成3_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 811,
+                "y": 713
+            }
+        }
+    },
+    "自动战斗_副本2_副本1_副本1": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    927,
+                    609,
+                    124,
+                    24
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "focus": "",
+        "interval": 5000,
+        "next": [
+            "识别完成3_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 756,
+                "y": 398
+            }
+        }
+    },
+    "自动战斗_副本2_副本1_副本2": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    927,
+                    609,
+                    124,
+                    24
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "focus": "",
+        "interval": 5000,
+        "next": [
+            "识别完成3_副本1_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 743,
+                "y": 88
+            }
+        }
+    },
+    "自动战斗_副本2_副本1_副本3": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    927,
+                    609,
+                    124,
+                    24
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "focus": "",
+        "interval": 5000,
+        "next": [
+            "识别完成3_副本1_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 809,
+                "y": 1029
+            }
+        }
+    },
+    "识别完成3_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "完成"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "interval": 5000,
+        "next": [
+            "巨龙遗迹返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1112,
+                "y": 718
+            }
+        }
+    },
+    "识别完成3_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "完成"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "interval": 5000,
+        "next": [
+            "龙三_副本1_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1039,
+                "y": 401
+            }
+        }
+    },
+    "识别完成3_副本1_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "完成"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "interval": 5000,
+        "next": [
+            "龙三_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1044,
+                "y": 81
+            }
+        }
+    },
+    "识别完成3_副本1_副本3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "完成"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": -1,
+        "interval": 5000,
+        "next": [
+            "巨龙遗迹返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1078,
+                "y": 1026
+            }
+        }
+    },
+    "龙三_副本1": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    85,
+                    473,
+                    179,
+                    51
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "自动战斗_副本2_副本1_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -5,
+                "y": 106
+            }
+        }
+    },
+    "龙三_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    109,
+                    556,
+                    163,
+                    63
+                ],
+                "expected": [
+                    "噩梦IV"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "text": "噩梦Ⅳ",
+        "next": [
+            "自动战斗_副本2_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -5,
+                "y": 379
+            }
+        }
+    },
+    "龙三_副本1_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    118,
+                    643,
+                    152,
+                    63
+                ],
+                "expected": [
+                    "深渊"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "自动战斗_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -48,
+                "y": 700
+            }
+        }
+    }
+}

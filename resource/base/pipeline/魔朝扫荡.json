@@ -1,0 +1,161 @@
+{
+    "$__mpe_config_魔朝扫荡": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792325579177,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\魔朝扫荡.json",
+            "savedViewport": {
+                "x": 441,
+                "y": -210,
+                "zoom": 1.5
+            },
+            "filename": "魔朝扫荡",
+            "version": "v2.1.0"
+        }
+    },
+    "新建节点56": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "魔潮"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点57"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 496,
+                "y": 313
+            }
+        }
+    },
+    "新建节点57": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "扫荡奖励"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "timeout": 500000,
+        "interval": 2000,
+        "next": [
+            "新建节点58"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 734,
+                "y": 323
+            }
+        }
+    },
+    "新建节点58": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "timeout": 500000,
+        "interval": 2000,
+        "next": [
+            "新建节点59"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 993,
+                "y": 417
+            }
+        }
+    },
+    "新建节点59": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点59_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1249,
+                "y": 441
+            }
+        }
+    },
+    "新建节点59_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1497,
+                "y": 468
+            }
+        }
+    },
+    "魔朝扫荡": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    959,
+                    463,
+                    103,
+                    109
+                ],
+                "expected": [
+                    "要塞"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点56"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 236,
+                "y": 277
+            }
+        }
+    }
+}

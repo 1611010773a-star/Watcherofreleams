@@ -1,0 +1,236 @@
+{
+    "$__mpe_config_公会任务奖励领取": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792325616610,
+            "isModifiedExternally": false,
+            "isDeleted": true,
+            "filePath": "E:\\Watcher of Realms\\assets\\resource\\pipeline\\公会任务奖励领取.json",
+            "savedViewport": {
+                "x": 900,
+                "y": -37,
+                "zoom": 1.5
+            },
+            "filename": "公会任务奖励领取",
+            "version": "v2.1.0"
+        }
+    },
+    "固定区域识别_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1067,
+                    270,
+                    154,
+                    57
+                ],
+                "expected": [
+                    "领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点107_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 462,
+                "y": 459
+            }
+        }
+    },
+    "固定区域识别_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1067,
+                    270,
+                    154,
+                    57
+                ],
+                "expected": [
+                    "领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点107_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 474,
+                "y": 696
+            }
+        }
+    },
+    "公会任务奖励领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "公会"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点105"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -70,
+                "y": 207
+            }
+        }
+    },
+    "新建节点105": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "公会任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "固定区域识别"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 175,
+                "y": 209
+            }
+        }
+    },
+    "新建节点107": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "固定区域识别_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 711,
+                "y": 225
+            }
+        }
+    },
+    "新建节点107_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "固定区域识别_副本2"
+        ],
+        "on_error": [
+            "新建节点112"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 769,
+                "y": 478
+            }
+        }
+    },
+    "新建节点107_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点112"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 750,
+                "y": 718
+            }
+        }
+    },
+    "新建节点112": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1244,
+                "y": 725
+            }
+        }
+    },
+    "固定区域识别": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1067,
+                    270,
+                    154,
+                    57
+                ],
+                "expected": [
+                    "领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点107"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 467,
+                "y": 221
+            }
+        }
+    }
+}

@@ -1,0 +1,872 @@
+{
+    "$__mpe_config_巨龙遗迹领奖": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792547599329,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher\\resource\\pipeline\\巨龙遗迹领奖.json",
+            "savedViewport": {
+                "x": 300,
+                "y": -295,
+                "zoom": 0.86
+            },
+            "filename": "巨龙遗迹领奖",
+            "version": "v2.1.0"
+        }
+    },
+    "关闭1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 408,
+                "y": 319
+            }
+        }
+    },
+    "关闭1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭2_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 417,
+                "y": 2
+            }
+        }
+    },
+    "关闭1_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭2_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 429,
+                "y": 613
+            }
+        }
+    },
+    "关闭1_副本2_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭1_副本2_副本1_副本1"
+        ],
+        "on_error": [
+            "点击返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 643,
+                "y": 954
+            }
+        }
+    },
+    "关闭1_副本2_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "repeat": 6,
+        "repeat_delay": 800,
+        "post_delay": 1500,
+        "next": [
+            "点击返回"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 916,
+                "y": 955
+            }
+        }
+    },
+    "关闭2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 656,
+                "y": 334
+            }
+        }
+    },
+    "关闭2_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭3_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 665,
+                "y": 18
+            }
+        }
+    },
+    "关闭2_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭3_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 681,
+                "y": 633
+            }
+        }
+    },
+    "关闭3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 922,
+                "y": 315
+            }
+        }
+    },
+    "关闭3_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭4_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 914,
+                "y": 18
+            }
+        }
+    },
+    "关闭3_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭4_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 920,
+                "y": 633
+            }
+        }
+    },
+    "关闭4": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1201,
+                "y": 349
+            }
+        }
+    },
+    "关闭4_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭5_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1210,
+                "y": 32
+            }
+        }
+    },
+    "关闭4_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭5_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1192,
+                "y": 650
+            }
+        }
+    },
+    "关闭5": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭6"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1484,
+                "y": 346
+            }
+        }
+    },
+    "关闭5_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭6_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1495,
+                "y": 29
+            }
+        }
+    },
+    "关闭5_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "关闭6_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1467,
+                "y": 645
+            }
+        }
+    },
+    "关闭6": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "深渊一"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1750,
+                "y": 331
+            }
+        }
+    },
+    "关闭6_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "龙四"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1749,
+                "y": 36
+            }
+        }
+    },
+    "关闭6_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    799,
+                    659,
+                    1,
+                    1
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "$__mpe_code": {
+            "position": {
+                "x": 1752,
+                "y": 651
+            }
+        }
+    },
+    "巨龙遗迹": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "巨龙遗迹-每日"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "龙三"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -301,
+                "y": 39
+            }
+        }
+    },
+    "巨龙遗迹领奖": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789386887120.png"
+                ]
+            }
+        },
+        "pre_delay": 1000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "巨龙遗迹"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -541,
+                "y": 29
+            }
+        }
+    },
+    "深渊一": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    121,
+                    638,
+                    146,
+                    67
+                ],
+                "expected": [
+                    "深渊"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "领奖_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -109,
+                "y": 587
+            }
+        }
+    },
+    "点击返回": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "点击返回副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1226,
+                "y": 1127
+            }
+        }
+    },
+    "点击返回副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1507,
+                "y": 1136
+            }
+        }
+    },
+    "领奖": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789447845420.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "关闭1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 168,
+                "y": 33
+            }
+        }
+    },
+    "领奖_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789447855447.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "关闭1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 167,
+                "y": 313
+            }
+        }
+    },
+    "领奖_副本1_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789447893086.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "关闭1_副本2_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 165,
+                "y": 599
+            }
+        }
+    },
+    "龙三": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    64,
+                    469,
+                    192,
+                    60
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "领奖"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -57,
+                "y": 28
+            }
+        }
+    },
+    "龙四": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    112,
+                    554,
+                    160,
+                    62
+                ],
+                "expected": [
+                    "噩梦"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "领奖_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -79,
+                "y": 313
+            }
+        }
+    }
+}

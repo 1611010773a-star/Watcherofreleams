@@ -1,0 +1,393 @@
+{
+    "$__mpe_config_通行证领取": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792980950796,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\通行证领取.json",
+            "savedViewport": {
+                "x": -242,
+                "y": -712,
+                "zoom": 0.86
+            },
+            "filename": "通行证领取",
+            "version": "v2.1.0"
+        }
+    },
+    "新建节点205": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "日任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点206"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 409,
+                "y": 337
+            }
+        }
+    },
+    "新建节点206": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "一键领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点207"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 668,
+                "y": 343
+            }
+        }
+    },
+    "新建节点206_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "一键领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点207_副本1"
+        ],
+        "on_error": [
+            "新建节点211"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 763,
+                "y": 710
+            }
+        }
+    },
+    "新建节点206_副本1_副本1": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    535,
+                    656,
+                    138,
+                    24
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点207_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 675,
+                "y": 1163
+            }
+        }
+    },
+    "新建节点207": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点207_副本2"
+        ],
+        "on_error": [
+            "新建节点208_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1089,
+                "y": 349
+            }
+        }
+    },
+    "新建节点207_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点207_副本1_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1065,
+                "y": 717
+            }
+        }
+    },
+    "新建节点207_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点215"
+        ],
+        "on_error": [
+            "新建节点215_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 985,
+                "y": 1179
+            }
+        }
+    },
+    "新建节点207_副本1_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点211"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1413,
+                "y": 703
+            }
+        }
+    },
+    "新建节点207_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点208"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1393,
+                "y": 354
+            }
+        }
+    },
+    "新建节点208": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "周任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点206_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 390,
+                "y": 602
+            }
+        }
+    },
+    "新建节点208_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "周任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点206_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 390,
+                "y": 874
+            }
+        }
+    },
+    "新建节点211": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "等级奖励"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点206_副本1_副本1"
+        ],
+        "on_error": [
+            "新建节点215_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 397,
+                "y": 1158
+            }
+        }
+    },
+    "新建节点215": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1362,
+                "y": 1178
+            }
+        }
+    },
+    "新建节点215_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1360,
+                "y": 1400
+            }
+        }
+    },
+    "新建节点244": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "金龙通行证"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点205"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 54,
+                "y": 357
+            }
+        }
+    },
+    "通行证领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "通行证"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点244"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -264,
+                "y": 353
+            }
+        }
+    }
+}

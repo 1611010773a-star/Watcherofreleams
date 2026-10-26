@@ -1,0 +1,160 @@
+{
+    "$__mpe_config_周任务领取": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792659354707,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher\\resource\\pipeline\\周任务领取.json",
+            "savedViewport": {
+                "x": 159,
+                "y": -216,
+                "zoom": 1.5
+            },
+            "filename": "周任务领取",
+            "version": "v2.1.0"
+        }
+    },
+    "周任务点击关闭": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点203"
+        ],
+        "on_error": [
+            "新建节点203_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1049,
+                "y": 320
+            }
+        }
+    },
+    "周任务领取": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    667,
+                    600,
+                    94,
+                    90
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "pre_delay": 8000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点201"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 217,
+                "y": 286
+            }
+        }
+    },
+    "新建节点201": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "每周任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点202"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 511,
+                "y": 319
+            }
+        }
+    },
+    "新建节点202": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "全部领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "周任务点击关闭"
+        ],
+        "on_error": [
+            "新建节点203_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 765,
+                "y": 323
+            }
+        }
+    },
+    "新建节点203": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1344,
+                "y": 299
+            }
+        }
+    },
+    "新建节点203_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1340,
+                "y": 564
+            }
+        }
+    }
+}

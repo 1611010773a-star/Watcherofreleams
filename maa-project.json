@@ -1,0 +1,92 @@
+{
+    "addons": {
+        "autoFormat": {
+            "enabled": true
+        },
+        "community": {
+            "enabled": true
+        },
+        "dependabot": {
+            "enabled": true
+        },
+        "devTools": {
+            "enabled": true
+        },
+        "gitCliff": {
+            "enabled": true
+        },
+        "github": {
+            "enabled": true
+        },
+        "optimizeImages": {
+            "enabled": true
+        },
+        "schemaSync": {
+            "enabled": true
+        },
+        "vscode": {
+            "enabled": true
+        }
+    },
+    "controller": {
+        "kinds": [
+            "Adb"
+        ]
+    },
+    "features": {
+        "ci": {
+            "enabled": true
+        },
+        "quality": {
+            "enabled": true
+        },
+        "release": {
+            "enabled": true
+        },
+        "vscode": {
+            "enabled": true
+        }
+    },
+    "license": {
+        "spdx": "AGPL-3.0-or-later"
+    },
+    "maafw": {
+        "channel": "stable",
+        "version": ""
+    },
+    "network": {
+        "mode": "auto"
+    },
+    "ocr": {
+        "files": {
+            "README.md": "ppocr_v6/small/README.md",
+            "det.onnx": "ppocr_v6/small/det.onnx",
+            "keys.txt": "ppocr_v6/small/keys.txt",
+            "rec.onnx": "ppocr_v6/small/rec.onnx"
+        },
+        "source": "submodule",
+        "submodulePath": "MaaCommonAssets/OCR"
+    },
+    "project": {
+        "displayName": "Watcherofreleams",
+        "initialTemplate": "pipeline",
+        "slug": "watcherofreleams",
+        "version": "0.1.0"
+    },
+    "resources": [
+        {
+            "enabled": true,
+            "label": "Base",
+            "path": "resource/base",
+            "slug": "base"
+        }
+    ],
+    "runtime": {
+        "mfa": {
+            "channel": "stable",
+            "enabled": true,
+            "version": ""
+        }
+    },
+    "schemaVersion": 2
+}

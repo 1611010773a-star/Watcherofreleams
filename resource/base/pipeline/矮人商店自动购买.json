@@ -1,0 +1,433 @@
+{
+    "$__mpe_config_矮人商店自动购买": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792658798069,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher\\resource\\pipeline\\矮人商店自动购买.json",
+            "savedViewport": {
+                "x": 680,
+                "y": -263,
+                "zoom": 0.57
+            },
+            "filename": "矮人商店自动购买",
+            "version": "v2.1.0"
+        }
+    },
+    "刷新": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1101,
+                    661,
+                    92,
+                    32
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "新建节点125_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -224,
+                "y": 1117
+            }
+        }
+    },
+    "当天首次刷新": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1101,
+                    661,
+                    92,
+                    32
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点129"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 29,
+                "y": 604
+            }
+        }
+    },
+    "新建节点125": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "一键购买"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点126"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 288,
+                "y": 319
+            }
+        }
+    },
+    "新建节点125_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "一键购买"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点126_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 36,
+                "y": 869
+            }
+        }
+    },
+    "新建节点125_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "一键购买"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "新建节点126_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 64,
+                "y": 1120
+            }
+        }
+    },
+    "新建节点126": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789540298977.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点127"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 576,
+                "y": 301
+            }
+        }
+    },
+    "新建节点126_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789540298977.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点127_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 322,
+                "y": 858
+            }
+        }
+    },
+    "新建节点126_副本1_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789540298977.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "新建节点127_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 322,
+                "y": 1113
+            }
+        }
+    },
+    "新建节点127": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "当天首次刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 852,
+                "y": 318
+            }
+        }
+    },
+    "新建节点127_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 594,
+                "y": 890
+            }
+        }
+    },
+    "新建节点127_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "新建节点66"
+        ],
+        "on_error": [
+            "刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 588,
+                "y": 1130
+            }
+        }
+    },
+    "新建节点129": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    397,
+                    383,
+                    41,
+                    40
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点65"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 304,
+                "y": 616
+            }
+        }
+    },
+    "新建节点130": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1095,
+                    659,
+                    117,
+                    33
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 50,
+        "next": [
+            "新建节点125_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 872,
+                "y": 627
+            }
+        }
+    },
+    "新建节点242_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1138,
+                "y": 1127
+            }
+        }
+    },
+    "新建节点65": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    669,
+                    450,
+                    205,
+                    49
+                ],
+                "expected": [
+                    "刷新"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点130"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 591,
+                "y": 613
+            }
+        }
+    },
+    "新建节点66": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    1089,
+                    654,
+                    132,
+                    45
+                ],
+                "template": [
+                    "template_1791868185618.png"
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点242_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 866,
+                "y": 1104
+            }
+        }
+    },
+    "矮人商店自动购买": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    778,
+                    431,
+                    38,
+                    52
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点125"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3,
+                "y": 302
+            }
+        }
+    }
+}

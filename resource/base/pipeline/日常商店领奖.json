@@ -1,0 +1,496 @@
+{
+    "222": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "11111"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1887,
+                "y": 561
+            }
+        }
+    },
+    "11111": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "英灵召唤包"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点64_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1061,
+                "y": 702
+            }
+        }
+    },
+    "$__mpe_config_日常商店领奖": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1792553448771,
+            "isModifiedExternally": false,
+            "isDeleted": false,
+            "filePath": "E:\\Watcher\\resource\\pipeline\\日常商店领奖.json",
+            "savedViewport": {
+                "x": -1447,
+                "y": -1042,
+                "zoom": 1.31
+            },
+            "filename": "日常商店领奖",
+            "version": "v2.1.0"
+        }
+    },
+    "商店滑动列表_副本1": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    128,
+                    275,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        133,
+                        55,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    1000
+                ]
+            }
+        },
+        "next": [
+            "新建节点62"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 767,
+                "y": 445
+            }
+        }
+    },
+    "新建节点62": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "日常礼包"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点63"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1071,
+                "y": 434
+            }
+        }
+    },
+    "新建节点63": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "每日特惠"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点64"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1342,
+                "y": 482
+            }
+        }
+    },
+    "新建节点64": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "免费领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "222"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1617,
+                "y": 507
+            }
+        }
+    },
+    "新建节点64_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    389,
+                    576,
+                    116,
+                    70
+                ],
+                "expected": [
+                    "免费"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点65_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1323,
+                "y": 755
+            }
+        }
+    },
+    "新建节点65_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 300,
+        "next": [
+            "新建节点72"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1595,
+                "y": 763
+            }
+        }
+    },
+    "新建节点65_副本1_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点76"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1756,
+                "y": 1087
+            }
+        }
+    },
+    "新建节点65_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "商店滑动列表_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1745,
+                "y": 161
+            }
+        }
+    },
+    "新建节点72": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "潮汐币商城"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点73"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1000,
+                "y": 1021
+            }
+        }
+    },
+    "新建节点73": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    577,
+                    74,
+                    155,
+                    46
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点74"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1265,
+                "y": 1037
+            }
+        }
+    },
+    "新建节点74": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "免费"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点65_副本1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1511,
+                "y": 1072
+            }
+        }
+    },
+    "新建节点76": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1998,
+                "y": 1093
+            }
+        }
+    },
+    "新建节点94": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "限时特惠"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点95"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 613,
+                "y": -86
+            }
+        }
+    },
+    "新建节点95": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "好运礼包"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点96"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1224,
+                "y": 213
+            }
+        }
+    },
+    "新建节点96": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "立即领取"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "新建节点65_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1485,
+                "y": 155
+            }
+        }
+    },
+    "日常商店领奖": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789453359719.png"
+                ]
+            }
+        },
+        "pre_delay": 4000,
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点94"
+        ],
+        "on_error": [
+            "新建节点75_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 37,
+                "y": -124
+            }
+        }
+    },
+    "新建节点75_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1792393015106.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "on_error": [
+            "关闭111_副本1"
+        ],
+        "next": [
+            "日常商店领奖"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 314,
+                "y": 162
+            }
+        }
+    },
+    "关闭111_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "日常商店领奖"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 618,
+                "y": 233
+            }
+        }
+    }
+}
