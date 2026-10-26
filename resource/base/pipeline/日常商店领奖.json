@@ -457,11 +457,11 @@
             "type": "Click"
         },
         "post_delay": 800,
-        "on_error": [
-            "关闭111_副本1"
-        ],
         "next": [
             "日常商店领奖"
+        ],
+        "on_error": [
+            "关闭111_副本1"
         ],
         "$__mpe_code": {
             "position": {

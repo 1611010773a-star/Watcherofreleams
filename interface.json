@@ -1,155 +1,155 @@
 {
-   "id": "watcherofreleams",
-  "name": "watcherofreleams",
-  "interface_version": 2,
-  "version": "0.1.0",
-  "label": "潮汐守望者自动",
-  "title": "潮汐守望者自动化",
-  "description": "这是一款潮汐守望者自动化软件",
-  "import": [],
-  "task": [
-    {
-      "name": "巨龙遗迹领奖",
-      "entry": "巨龙遗迹领奖",
-      "label": "巨龙遗迹领奖",
-      "default_check": true,
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "巨龙遗迹自动战斗",
-      "entry": "巨龙遗迹战斗",
-      "label": "巨龙遗迹自动战斗",
-      "default_check": true,
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "友情点赠送",
-      "entry": "友情点赠送",
-      "label": "友情点赠送",
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "矮人商店自动购买",
-      "entry": "矮人商店自动购买",
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ],
-      "description": "请在预购清单选好您要购买的物品。\n如果您勾选了白绿英雄购买，请确保英雄仓库不会溢出（否则会出现跳过购买的情况，会一直刷新商店）"
-    },
-    {
-      "name": "阵营试炼自动",
-      "entry": "阵营试炼自动",
-      "label": "阵营试炼自动",
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ],
-      "default_check": true
-    },
-    {
-      "name": "魔朝扫荡",
-      "entry": "魔朝扫荡",
-      "default_check": true
-    },
-    {
-      "name": "日常杂物领取",
-      "entry": "日常杂物领取",
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "日常商店领奖",
-      "entry": "日常商店领奖",
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ],
-      "description": "潮汐币商店，每日特惠等杂物领取"
-    },
-    {
-      "name": "公会任务奖励领取",
-      "entry": "公会任务奖励领取",
-      "controller": [
-        "安卓端"
-      ],
-      "default_check": true,
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "日常任务领奖",
-      "entry": "日常任务领奖",
-      "default_check": true,
-      "resource": [
-        "资源"
-      ],
-      "controller": [
-        "安卓端"
-      ]
-    },
-    {
-      "name": "周任务领取",
-      "entry": "周任务领取",
-      "default_check": true,
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    },
-    {
-      "name": "通行证领取",
-      "entry": "通行证领取",
-      "default_check": true,
-      "controller": [
-        "安卓端"
-      ],
-      "resource": [
-        "资源"
-      ]
-    }
-  ],
-  "controller": [
-    {
-      "name": "安卓端",
-      "type": "Adb"
-    } 
-  ],
-  "resource": [
-    {
-      "name": "资源",
-      "path": [
-        "resource/base"
-      ]
-    }
-  ]
- 
+    "interface_version": 2,
+    "name": "watcherofreleams",
+    "label": "潮汐守望者自动",
+    "title": "潮汐守望者自动化",
+    "version": "0.1.0",
+    "description": "这是一款潮汐守望者自动化软件",
+    "controller": [
+        {
+            "name": "安卓端",
+            "type": "Adb"
+        }
+    ],
+    "resource": [
+        {
+            "name": "资源",
+            "path": [
+                "resource/base"
+            ]
+        }
+    ],
+
+    "task": [
+        {
+            "name": "巨龙遗迹领奖",
+            "label": "巨龙遗迹领奖",
+            "entry": "巨龙遗迹领奖",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "巨龙遗迹自动战斗",
+            "label": "巨龙遗迹自动战斗",
+            "entry": "巨龙遗迹战斗",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "友情点赠送",
+            "label": "友情点赠送",
+            "entry": "友情点赠送",
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "矮人商店自动购买",
+            "entry": "矮人商店自动购买",
+            "description": "请在预购清单选好您要购买的物品。\n如果您勾选了白绿英雄购买，请确保英雄仓库不会溢出（否则会出现跳过购买的情况，会一直刷新商店）",
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "阵营试炼自动",
+            "label": "阵营试炼自动",
+            "entry": "阵营试炼自动",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "魔朝扫荡",
+            "entry": "魔朝扫荡",
+            "default_check": true
+        },
+        {
+            "name": "日常杂物领取",
+            "entry": "日常杂物领取",
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "日常商店领奖",
+            "entry": "日常商店领奖",
+            "description": "潮汐币商店，每日特惠等杂物领取",
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "公会任务奖励领取",
+            "entry": "公会任务奖励领取",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "日常任务领奖",
+            "entry": "日常任务领奖",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "周任务领取",
+            "entry": "周任务领取",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        },
+        {
+            "name": "通行证领取",
+            "entry": "通行证领取",
+            "default_check": true,
+            "resource": [
+                "资源"
+            ],
+            "controller": [
+                "安卓端"
+            ]
+        }
+    ],
+    "import": [],
+    "id": "watcherofreleams"
 }
