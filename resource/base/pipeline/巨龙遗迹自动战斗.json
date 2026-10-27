@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793024975640,
+            "lastSyncTime": 1793068742869,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\巨龙遗迹自动战斗.json",
             "savedViewport": {
-                "x": 1863,
-                "y": 99,
-                "zoom": 1.5
+                "x": 547,
+                "y": 159,
+                "zoom": 0.75
             },
             "filename": "巨龙遗迹自动战斗",
             "version": "v2.1.0"
@@ -28,6 +28,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 800,
         "next": [
             "龙三_副本1"
         ],
@@ -47,10 +48,11 @@
                 ]
             }
         },
-        "pre_delay": 1000,
+        "pre_delay": 4000,
         "action": {
             "type": "Click"
         },
+        "post_delay": 1000,
         "next": [
             "巨龙遗迹_副本1"
         ],
@@ -168,11 +170,11 @@
             "type": "Click"
         },
         "timeout": -1,
+        "focus": "",
+        "interval": 5000,
         "next": [
             "识别完成3_副本1"
         ],
-        "focus": "",
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 811,
@@ -196,11 +198,11 @@
             "type": "Click"
         },
         "timeout": -1,
+        "focus": "",
+        "interval": 5000,
         "next": [
             "识别完成3_副本1_副本1"
         ],
-        "focus": "",
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 756,
@@ -224,11 +226,11 @@
             "type": "Click"
         },
         "timeout": -1,
+        "focus": "",
+        "interval": 5000,
         "next": [
             "识别完成3_副本1_副本2"
         ],
-        "focus": "",
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 743,
@@ -252,11 +254,11 @@
             "type": "Click"
         },
         "timeout": -1,
+        "focus": "",
+        "interval": 5000,
         "next": [
             "识别完成3_副本1_副本3"
         ],
-        "focus": "",
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 809,
@@ -277,10 +279,10 @@
             "type": "Click"
         },
         "timeout": -1,
+        "interval": 5000,
         "next": [
             "巨龙遗迹返回"
         ],
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 1112,
@@ -301,10 +303,10 @@
             "type": "Click"
         },
         "timeout": -1,
+        "interval": 5000,
         "next": [
             "龙三_副本1_副本2"
         ],
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 1039,
@@ -325,10 +327,10 @@
             "type": "Click"
         },
         "timeout": -1,
+        "interval": 5000,
         "next": [
             "龙三_副本1_副本1"
         ],
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 1044,
@@ -349,10 +351,10 @@
             "type": "Click"
         },
         "timeout": -1,
+        "interval": 5000,
         "next": [
             "巨龙遗迹返回"
         ],
-        "interval": 5000,
         "$__mpe_code": {
             "position": {
                 "x": 1078,
@@ -375,6 +377,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 800,
         "next": [
             "自动战斗_副本2_副本1_副本2"
         ],
@@ -403,10 +406,10 @@
         "action": {
             "type": "Click"
         },
+        "text": "噩梦Ⅳ",
         "next": [
             "自动战斗_副本2_副本1_副本1"
         ],
-        "text": "噩梦Ⅳ",
         "$__mpe_code": {
             "position": {
                 "x": -5,
