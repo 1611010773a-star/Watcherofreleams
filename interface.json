@@ -3,7 +3,7 @@
     "name": "watcherofreleams",
     "label": "潮汐守望者自动",
     "title": "潮汐守望者自动化",
-    "version": "0.1.0",
+    "version": "v0.1.0",
     "description": "这是一款潮汐守望者自动化软件",
     "controller": [
         {
