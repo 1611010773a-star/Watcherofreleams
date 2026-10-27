@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793068788004,
-            "isModifiedExternally": true,
+            "lastSyncTime": 1793070020875,
+            "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\巨龙遗迹自动战斗.json",
             "savedViewport": {
-                "x": -37,
-                "y": -366,
+                "x": 189,
+                "y": -39,
                 "zoom": 0.75
             },
             "filename": "巨龙遗迹自动战斗",
@@ -171,10 +171,10 @@
         },
         "timeout": -1,
         "rate_limit": 5000,
+        "focus": "",
         "next": [
             "识别完成3_副本1"
         ],
-        "focus": "",
         "$__mpe_code": {
             "position": {
                 "x": 811,
@@ -199,10 +199,10 @@
         },
         "timeout": -1,
         "rate_limit": 5000,
+        "focus": "",
         "next": [
             "识别完成3_副本1_副本1"
         ],
-        "focus": "",
         "$__mpe_code": {
             "position": {
                 "x": 756,
@@ -227,10 +227,10 @@
         },
         "timeout": -1,
         "rate_limit": 5000,
+        "focus": "",
         "next": [
             "识别完成3_副本1_副本2"
         ],
-        "focus": "",
         "$__mpe_code": {
             "position": {
                 "x": 743,
@@ -255,10 +255,10 @@
         },
         "timeout": -1,
         "rate_limit": 5000,
+        "focus": "",
         "next": [
             "识别完成3_副本1_副本3"
         ],
-        "focus": "",
         "$__mpe_code": {
             "position": {
                 "x": 809,
@@ -409,7 +409,6 @@
         "next": [
             "自动战斗_副本2_副本1_副本1"
         ],
-        "text": "噩梦Ⅳ",
         "$__mpe_code": {
             "position": {
                 "x": -5,
