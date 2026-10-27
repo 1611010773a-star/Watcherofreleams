@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793024950580,
+            "lastSyncTime": 1793064331274,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\巨龙遗迹领奖.json",
             "savedViewport": {
-                "x": 1203,
-                "y": 166,
-                "zoom": 0.99
+                "x": 242,
+                "y": -38,
+                "zoom": 0.49
             },
             "filename": "巨龙遗迹领奖",
             "version": "v2.1.0"
@@ -42,8 +42,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 408,
-                "y": 319
+                "x": 414,
+                "y": 324
             }
         }
     },
@@ -694,7 +694,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "领奖_副本1_副本1"
         ],
@@ -758,13 +758,14 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 800,
         "next": [
             "关闭1_副本1"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 168,
-                "y": 33
+                "x": 180,
+                "y": 21
             }
         }
     },
@@ -780,7 +781,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "关闭1"
         ],
@@ -803,7 +804,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "关闭1_副本2_副本1"
         ],
@@ -829,7 +830,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 800,
         "next": [
             "领奖"
         ],
@@ -858,7 +859,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "领奖_副本1"
         ],

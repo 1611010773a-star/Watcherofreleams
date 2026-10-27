@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793024941941,
+            "lastSyncTime": 1793068184654,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\通行证领取.json",
             "savedViewport": {
-                "x": 1191,
-                "y": -300,
-                "zoom": 1.5
+                "x": 588,
+                "y": -15,
+                "zoom": 0.86
             },
             "filename": "通行证领取",
             "version": "v2.1.0"

@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793025025647,
+            "lastSyncTime": 1793067620197,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\日常任务领奖.json",
             "savedViewport": {
-                "x": 1601,
-                "y": -12,
-                "zoom": 1.5
+                "x": 470,
+                "y": 82,
+                "zoom": 0.99
             },
             "filename": "日常任务领奖",
             "version": "v2.1.0"
@@ -28,6 +28,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 1000,
         "next": [
             "新建节点199"
         ],
@@ -91,6 +92,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 1000,
         "next": [
             "新建节点198"
         ],
@@ -117,6 +119,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "新建节点32_副本1"
         ],

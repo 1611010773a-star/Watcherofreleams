@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793024995497,
+            "lastSyncTime": 1793067427701,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\阵营试炼自动.json",
             "savedViewport": {
-                "x": 1212,
-                "y": 96,
-                "zoom": 1.5
+                "x": 62,
+                "y": -364,
+                "zoom": 0.75
             },
             "filename": "阵营试炼自动",
             "version": "v2.1.0"
@@ -89,8 +89,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": -24,
-                "y": 44
+                "x": -188,
+                "y": 28
             }
         }
     },
@@ -440,7 +440,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 800,
+        "post_delay": 1500,
         "next": [
             "新建节点44_副本1_副本1_副本1_副本1"
         ],
@@ -463,7 +463,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 800,
+        "post_delay": 1500,
         "$__mpe_code": {
             "position": {
                 "x": 1288,
@@ -580,10 +580,109 @@
         "next": [
             "新建节点36"
         ],
+        "on_error": [
+            "新建节点75_副本1",
+            "关闭111_副本1",
+            "新建节点78_副本1",
+            "新建节点77_副本1"
+        ],
         "$__mpe_code": {
             "position": {
-                "x": -278,
-                "y": 47
+                "x": -1284,
+                "y": 30
+            }
+        }
+    },
+    "关闭111_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "点击关闭"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "阵营试炼自动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -871,
+                "y": 770
+            }
+        }
+    },
+    "新建节点75_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1792393015106.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "阵营试炼自动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -868,
+                "y": 447
+            }
+        }
+    },
+    "新建节点77_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1789389957083.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "阵营试炼自动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -893,
+                "y": 1449
+            }
+        }
+    },
+    "新建节点78_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "template_1792767061782.png"
+                ],
+                "green_mask": true
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 800,
+        "next": [
+            "阵营试炼自动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -881,
+                "y": 1068
             }
         }
     }

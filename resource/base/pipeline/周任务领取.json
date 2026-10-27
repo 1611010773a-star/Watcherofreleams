@@ -3,14 +3,14 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793025029911,
+            "lastSyncTime": 1793067588034,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\周任务领取.json",
             "savedViewport": {
-                "x": 470,
-                "y": -224,
-                "zoom": 1.5
+                "x": -388,
+                "y": -80,
+                "zoom": 0.99
             },
             "filename": "周任务领取",
             "version": "v2.1.0"
@@ -28,7 +28,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "新建节点203"
         ],
@@ -61,6 +61,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "新建节点201"
         ],
@@ -83,6 +84,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 1000,
         "next": [
             "新建节点202"
         ],
@@ -105,7 +107,7 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 500,
+        "post_delay": 1000,
         "next": [
             "周任务点击关闭"
         ],

@@ -49,20 +49,20 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1793025014692,
+            "lastSyncTime": 1793066418426,
             "isModifiedExternally": false,
             "isDeleted": false,
             "filePath": "E:\\Watcherofreleams\\resource\\base\\pipeline\\日常商店领奖.json",
             "savedViewport": {
-                "x": 740,
-                "y": 358,
-                "zoom": 1.5
+                "x": -195,
+                "y": -39,
+                "zoom": 0.99
             },
             "filename": "日常商店领奖",
             "version": "v2.1.0"
         }
     },
-    "关闭111_副本1": {
+    "关闭111_副本11": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -354,7 +354,7 @@
             }
         }
     },
-    "新建节点75_副本1": {
+    "新建节点75_副本11": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -371,7 +371,7 @@
             "日常商店领奖"
         ],
         "on_error": [
-            "关闭111_副本1"
+            "关闭111_副本11"
         ],
         "$__mpe_code": {
             "position": {
@@ -484,7 +484,7 @@
             "新建节点94"
         ],
         "on_error": [
-            "新建节点75_副本1"
+            "新建节点75_副本11"
         ],
         "$__mpe_code": {
             "position": {
